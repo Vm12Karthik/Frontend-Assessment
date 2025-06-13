@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px 30px;
+  align-items: flex-start;
+  background: #f9f9f9;
+}
+
+.image-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-content {
+  padding-top: 120px;
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-content span {
+  color: #007bff;
+}
+
+.search-box {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.pillars {
+  padding: 40px 30px;
+}
+
+.pillars h2 {
+  margin-bottom: 20px;
+}
+
+.pillars h2 span {
+  color: #e65100;
+}
+
+.pillars-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.pillars-nav button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pillars-nav button.active,
+.pillars-nav button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Pillars Content */
+.pillars-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto; /* optional: makes it scrollable on smaller screens */
+}
+
+
+.pillar-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pillar-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.pillar-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.pillar-card .tag {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.pillar-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
